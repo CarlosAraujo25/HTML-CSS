@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: gray;
+}
+
+main{
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+
+#primaria{
+    position: relative;
+}
+
+#secundaria{
+    position: absolute;
+   display: inline;
+    width: 50%; 
+    right: 250px;
+
+}
