@@ -1,26 +1,19 @@
 @charset "UTF-8";
 
 body{
-    background-color: gray;
+    height: 95vh;
+    background-image: url(espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-main{
-    min-width: 280px;
-    max-width: 800px;
-    margin: auto;
-}
 img{
-    width: 100%;
-}
-
-#primaria{
-    position: relative;
-}
-
-#secundaria{
     position: absolute;
-   display: inline;
-    width: 50%; 
-    right: 250px;
 
+    width: 30%;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 }
